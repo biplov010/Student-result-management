@@ -19,7 +19,8 @@ void addStudent() {
     scanf("%d", &students[count].id);
 
     printf("Enter Name: ");
-    scanf(" %[^\n]", students[count].name);
+    scanf(" %[^
+]", students[count].name);
 
     printf("Enter marks for 3 subjects:\n");
     students[count].total = 0;
